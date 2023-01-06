@@ -1,0 +1,83 @@
+:root {
+	--board-background: none;
+	--border-color: #f6546a;
+	--border-thickness: 5px;
+}
+
+.board4{
+	width: 350px;
+	height: 50%;
+	background-color: var(--board-background);
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.input4{
+	height: 25%;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-family: 'Bellefair', serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.input4-1{
+	border-right: var(--border-thickness)
+	dashed var(--border-color);
+	border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+
+.input4-2{
+	border-right: var(--border-thickness)
+	dashed var(--border-color);
+	border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+
+.input4-3{
+    border-right: var(--border-thickness)
+	dashed var(--border-color);
+	border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+
+.input4-4{
+    border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+
+.input4-5,.input4-9{
+    border-right: var(--border-thickness)
+	dashed var(--border-color);
+	border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+
+.input4-6,.input4-7,.input4-10,.input4-11{
+    border-right: var(--border-thickness)
+	dashed var(--border-color);
+	border-bottom: var(--border-thickness)
+	dashed var(--border-color); 
+}
+
+.input4-8,.input4-12{
+    border-bottom: var(--border-thickness)
+	dashed var(--border-color);
+}
+.input4-13{
+    border-right: var(--border-thickness)
+	dashed var(--border-color);
+
+}
+.input4-14,.input4-15{
+    border-right: var(--border-thickness)
+	dashed var(--border-color);
+
+}
